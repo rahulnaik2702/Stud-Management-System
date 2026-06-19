@@ -1,0 +1,31 @@
+{
+    "students": [
+        {
+            "name": "SAHIL",
+            "age": "16",
+            "phone_no": "2345564589",
+            "roll_no": "1",
+            "grades": {
+                "Maths": 65.0
+            }
+        },
+        {
+            "name": "ROHAN",
+            "age": "16",
+            "phone_no": "7845127845",
+            "roll_no": "2",
+            "grades": {
+                "Maths": 55.0
+            }
+        }
+    ],
+    "teachers": [
+        {
+            "name": "MAHESH",
+            "age": "35",
+            "phone_no": "4556455612",
+            "subject": "Maths",
+            "teach_id": "01"
+        }
+    ]
+}
