@@ -17,6 +17,13 @@
             "grades": {
                 "Maths": 55.0
             }
+        },
+        {
+            "name": "Rohit",
+            "age": "15",
+            "phone_no": "8956457852",
+            "roll_no": "3",
+            "grades": {}
         }
     ],
     "teachers": [
