@@ -3,7 +3,7 @@ from abc import ABC,abstractmethod
 from pathlib import Path
 
 database = "school_data.json"
-data = {"students" : [],"teachers" : []}
+data = {"students": [],"teachers" : []}
 
 if Path(database).exists():
     with open(database,'r') as f:
@@ -146,7 +146,7 @@ stud = Student()
 tech = Teacher()
 
 
-print("WELCOME TO MANAGEMENT SYSTEM")
+
 print("PRESS 1 FOR STUDENT REGISTERATION")
 print("PRESS 2 FOR TEACHER REGISTERATION")
 print("PRESS 3 FOR ADDING GRADES")
@@ -166,3 +166,9 @@ elif options == 4:
     stud.show_details()
 elif options == 5:
     tech.show_details()
+
+
+
+
+
+print("WELCOME TO WEBSITE")
